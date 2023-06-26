@@ -29,6 +29,6 @@ modules:
       - type: archive
         only-arches:
           - x86_64
-        url: https://github.com/wger-project/flutter/releases/download/1.5.4/wger-linux-x86_64.tar.gz
-        sha256: 812cd3ba68d61fde5bee55286e2ef54714900c3047ee6e335e695af05e3c4d23
+        url: https://github.com/wger-project/flutter/releases/download/1.5.6/wger-linux-x86_64.tar.gz
+        sha256: a15e73eb9f953fa459a29a59232e8aedc20af00b16e541190a268edf51601ca1
         dest: "wger"
