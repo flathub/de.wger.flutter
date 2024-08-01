@@ -35,8 +35,8 @@
           "only-arches": [
             "x86_64"
           ],
-          "url": "https://github.com/wger-project/flutter/releases/download/1.7.6/wger-linux-x86_64.tar.gz",
-          "sha256": "e6209d51e53587ef159e1a6e0687a2dd9491e5c5d938b5365e6db73f8b7aeca2",
+          "url": "https://github.com/wger-project/flutter/releases/download/1.7.7/wger-linux-x86_64.tar.gz",
+          "sha256": "c95d9352d9f61157e7cdd4fecab3058a166b8ed88f0606c183b99b59ba3b1f92",
           "dest": "wger"
         }
       ]
