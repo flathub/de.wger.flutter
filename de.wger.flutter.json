@@ -36,7 +36,7 @@
             "x86_64"
           ],
           "url": "https://github.com/wger-project/flutter/releases/download/1.7.9/wger-linux-x86_64.tar.gz",
-          "sha256": "fec815376475b818316beb541540810ef9d3cd26575de6b03e40754215277cc3",
+          "sha256": "076b0f205dbbc6539fe82fcb95512ac5dd329f24840d112c824cbfe754095c1c",
           "dest": "wger"
         }
       ]
