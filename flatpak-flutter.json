@@ -3,6 +3,9 @@
   "runtime": "org.freedesktop.Platform",
   "runtime-version": "24.08",
   "sdk": "org.freedesktop.Sdk",
+  "sdk-extensions": [
+      "org.freedesktop.Sdk.Extension.llvm19"
+  ],
   "command": "wger",
   "separate-locales": false,
   "finish-args": [
