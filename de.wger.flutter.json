@@ -16,6 +16,9 @@
         "--socket=pulseaudio",
         "--device=dri"
     ],
+    "cleanup": [
+        "/var/lib"
+    ],
     "modules": [
         {
             "name": "wger",
