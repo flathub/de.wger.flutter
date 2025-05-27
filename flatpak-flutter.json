@@ -61,9 +61,21 @@
         },
         {
           "type": "file",
+          "only-arches": [
+              "x86_64"
+          ],
           "url": "https://sqlite.org/2025/sqlite-autoconf-3490100.tar.gz",
           "sha256": "106642d8ccb36c5f7323b64e4152e9b719f7c0215acf5bfeac3d5e7f97b59254",
           "dest": "build/linux/x64/release/_deps/sqlite3-subbuild/sqlite3-populate-prefix/src"
+        },
+        {
+          "type": "file",
+          "only-arches": [
+              "aarch64"
+          ],
+          "url": "https://sqlite.org/2025/sqlite-autoconf-3490100.tar.gz",
+          "sha256": "106642d8ccb36c5f7323b64e4152e9b719f7c0215acf5bfeac3d5e7f97b59254",
+          "dest": "build/linux/arm64/release/_deps/sqlite3-subbuild/sqlite3-populate-prefix/src"
         }
       ]
     }
