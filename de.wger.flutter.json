@@ -1,45 +1,92 @@
 {
-  "app-id": "de.wger.flutter",
-  "runtime": "org.freedesktop.Platform",
-  "runtime-version": "24.08",
-  "sdk": "org.freedesktop.Sdk",
-  "command": "wger",
-  "separate-locales": false,
-  "finish-args": [
-    "--share=ipc",
-    "--share=network",
-    "--socket=fallback-x11",
-    "--socket=wayland",
-    "--socket=pulseaudio",
-    "--device=dri"
-  ],
-  "modules": [
-    {
-      "name": "wger",
-      "buildsystem": "simple",
-      "build-commands": [
-        "cp -R wger/bin/ /app/wger",
-        "chmod +x /app/wger/wger",
-        "mkdir -p /app/bin/",
-        "mkdir -p /app/lib/",
-        "ln -s /app/wger/wger /app/bin/wger",
-        "install -Dm644 wger/icons/64x64/de.wger.flutter.png /app/share/icons/hicolor/64x64/apps/de.wger.flutter.png",
-        "install -Dm644 wger/icons/128x126/de.wger.flutter.png /app/share/icons/hicolor/128x126/apps/de.wger.flutter.png",
-        "install -Dm644 wger/icons/512x512/de.wger.flutter.png /app/share/icons/hicolor/512x512/apps/de.wger.flutter.png",
-        "install -Dm644 wger/de.wger.flutter.desktop /app/share/applications/de.wger.flutter.desktop",
-        "install -Dm644 wger/de.wger.flutter.metainfo.xml /app/share/metainfo/de.wger.flutter.metainfo.xml"
-      ],
-      "sources": [
+    "app-id": "de.wger.flutter",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "24.08",
+    "sdk": "org.freedesktop.Sdk",
+    "sdk-extensions": [
+        "org.freedesktop.Sdk.Extension.llvm19"
+    ],
+    "command": "wger",
+    "separate-locales": false,
+    "finish-args": [
+        "--share=ipc",
+        "--share=network",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--socket=pulseaudio",
+        "--device=dri"
+    ],
+    "cleanup": [
+        "/var/lib"
+    ],
+    "modules": [
         {
-          "type": "archive",
-          "only-arches": [
-            "x86_64"
-          ],
-          "url": "https://github.com/wger-project/flutter/releases/download/1.8.2/wger-linux-x86_64.tar.gz",
-          "sha256": "3845de68a097520a6fca98cacb56ad47b7998986b7bea613f92b25ca2104624d",
-          "dest": "wger"
+            "name": "wger",
+            "buildsystem": "simple",
+            "build-options": {
+                "arch": {
+                    "x86_64": {
+                        "env": {
+                            "BUNDLE_PATH": "build/linux/x64/release/bundle"
+                        }
+                    },
+                    "aarch64": {
+                        "env": {
+                            "BUNDLE_PATH": "build/linux/arm64/release/bundle"
+                        }
+                    }
+                },
+                "append-path": "/usr/lib/sdk/llvm19/bin:/var/lib/flutter/bin",
+                "prepend-ld-library-path": "/usr/lib/sdk/llvm19/lib",
+                "env": {
+                    "PUB_CACHE": "/run/build/wger/.pub-cache"
+                }
+            },
+            "build-commands": [
+                "setup-flutter.sh -C .",
+                "flutter build linux --release",
+                "install -D $BUNDLE_PATH/wger /app/bin/wger",
+                "cp -r $BUNDLE_PATH/lib /app/bin/lib",
+                "cp -r $BUNDLE_PATH/data /app/bin/data",
+                "install -Dm644 flatpak/logo64.png /app/share/icons/hicolor/64x64/apps/de.wger.flutter.png",
+                "install -Dm644 flatpak/logo128.png /app/share/icons/hicolor/128x128/apps/de.wger.flutter.png",
+                "install -Dm644 flatpak/logo512.png /app/share/icons/hicolor/512x512/apps/de.wger.flutter.png",
+                "install -Dm644 flatpak/de.wger.flutter.desktop /app/share/applications/de.wger.flutter.desktop",
+                "install -Dm644 flatpak/de.wger.flutter.metainfo.xml /app/share/metainfo/de.wger.flutter.metainfo.xml"
+            ],
+            "sources": [
+                "pubspec-sources.json",
+                {
+                    "type": "git",
+                    "url": "https://github.com/wger-project/flutter",
+                    "tag": "1.8.2"
+                },
+                {
+                    "type": "file",
+                    "only-arches": [
+                        "x86_64"
+                    ],
+                    "url": "https://sqlite.org/2025/sqlite-autoconf-3490100.tar.gz",
+                    "sha256": "106642d8ccb36c5f7323b64e4152e9b719f7c0215acf5bfeac3d5e7f97b59254",
+                    "dest": "build/linux/x64/release/_deps/sqlite3-subbuild/sqlite3-populate-prefix/src"
+                },
+                {
+                    "type": "file",
+                    "only-arches": [
+                        "aarch64"
+                    ],
+                    "url": "https://sqlite.org/2025/sqlite-autoconf-3490100.tar.gz",
+                    "sha256": "106642d8ccb36c5f7323b64e4152e9b719f7c0215acf5bfeac3d5e7f97b59254",
+                    "dest": "build/linux/arm64/release/_deps/sqlite3-subbuild/sqlite3-populate-prefix/src"
+                },
+                {
+                    "type": "patch",
+                    "path": "sqlite3_flutter_libs.offline.patch"
+                }
+            ],
+            "modules": [
+                "flutter-sdk-3.29.3.json"
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
