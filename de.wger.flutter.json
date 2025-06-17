@@ -59,33 +59,34 @@
                 {
                     "type": "git",
                     "url": "https://github.com/wger-project/flutter",
-                    "tag": "1.8.2"
+                    "tag": "1.8.3"
                 },
                 {
                     "type": "file",
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://sqlite.org/2025/sqlite-autoconf-3490100.tar.gz",
-                    "sha256": "106642d8ccb36c5f7323b64e4152e9b719f7c0215acf5bfeac3d5e7f97b59254",
-                    "dest": "build/linux/x64/release/_deps/sqlite3-subbuild/sqlite3-populate-prefix/src"
+                    "url": "https://sqlite.org/2025/sqlite-autoconf-3500100.tar.gz",
+                    "sha256": "00a65114d697cfaa8fe0630281d76fd1b77afcd95cd5e40ec6a02cbbadbfea71",
+                    "dest": "./build/linux/x64/release/_deps/sqlite3-subbuild/sqlite3-populate-prefix/src"
                 },
                 {
                     "type": "file",
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://sqlite.org/2025/sqlite-autoconf-3490100.tar.gz",
-                    "sha256": "106642d8ccb36c5f7323b64e4152e9b719f7c0215acf5bfeac3d5e7f97b59254",
-                    "dest": "build/linux/arm64/release/_deps/sqlite3-subbuild/sqlite3-populate-prefix/src"
+                    "url": "https://sqlite.org/2025/sqlite-autoconf-3500100.tar.gz",
+                    "sha256": "00a65114d697cfaa8fe0630281d76fd1b77afcd95cd5e40ec6a02cbbadbfea71",
+                    "dest": "./build/linux/arm64/release/_deps/sqlite3-subbuild/sqlite3-populate-prefix/src"
                 },
                 {
                     "type": "patch",
-                    "path": "sqlite3_flutter_libs.offline.patch"
+                    "path": "sqlite3_flutter_libs/CMakeLists.txt.patch",
+                    "dest": ".pub-cache/hosted/pub.dev/sqlite3_flutter_libs-0.5.34"
                 }
             ],
             "modules": [
-                "flutter-sdk-3.29.3.json"
+                "flutter-sdk-3.32.2.json"
             ]
         }
     ]
