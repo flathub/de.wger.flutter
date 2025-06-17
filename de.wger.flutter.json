@@ -59,7 +59,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/wger-project/flutter",
-                    "tag": "1.8.2"
+                    "tag": "1.8.3"
                 },
                 {
                     "type": "file",
@@ -85,7 +85,7 @@
                 }
             ],
             "modules": [
-                "flutter-sdk-3.29.3.json"
+                "flutter-sdk-3.32.2.json"
             ]
         }
     ]
