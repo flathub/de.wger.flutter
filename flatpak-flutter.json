@@ -43,7 +43,7 @@
         }
       },
       "build-commands": [
-        "flutter build linux --release",
+        "flutter build linux --release --no-pub",
         "install -D $BUNDLE_PATH/wger /app/bin/wger",
         "cp -r $BUNDLE_PATH/lib /app/bin/lib",
         "cp -r $BUNDLE_PATH/data /app/bin/data",
@@ -57,12 +57,12 @@
         {
           "type": "git",
           "url": "https://github.com/wger-project/flutter",
-          "tag": "1.8.3"
+          "tag": "1.9.0"
         },
         {
           "type": "git",
           "url": "https://github.com/flutter/flutter.git",
-          "tag": "3.32.2",
+          "tag": "3.35.2",
           "dest": "flutter"
         }
       ]
