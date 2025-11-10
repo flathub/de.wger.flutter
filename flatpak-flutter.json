@@ -57,12 +57,12 @@
         {
           "type": "git",
           "url": "https://github.com/wger-project/flutter",
-          "tag": "1.9.0"
+          "tag": "1.9.1"
         },
         {
           "type": "git",
           "url": "https://github.com/flutter/flutter.git",
-          "tag": "3.35.2",
+          "tag": "3.35.7",
           "dest": "flutter"
         }
       ]

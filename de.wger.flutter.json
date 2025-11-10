@@ -59,7 +59,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/wger-project/flutter",
-                    "tag": "1.9.0"
+                    "tag": "1.9.1"
                 },
                 {
                     "type": "file",
@@ -82,11 +82,11 @@
                 {
                     "type": "patch",
                     "path": "sqlite3_flutter_libs/0.5.39-CMakeLists.txt.patch",
-                    "dest": ".pub-cache/hosted/pub.dev/sqlite3_flutter_libs-0.5.39"
+                    "dest": ".pub-cache/hosted/pub.dev/sqlite3_flutter_libs-0.5.40"
                 }
             ],
             "modules": [
-                "flutter-sdk-3.35.2.json"
+                "flutter-sdk-3.35.7.json"
             ]
         }
     ]
