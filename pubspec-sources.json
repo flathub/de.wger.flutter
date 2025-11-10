@@ -128,16 +128,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build_runner-2.8.0.tar.gz",
-        "sha256": "804c47c936df75e1911c19a4fb8c46fa8ff2b3099b9f2b2aa4726af3774f734b",
+        "url": "https://pub.dev/api/archives/build_runner-2.9.0.tar.gz",
+        "sha256": "4e54dbeefdc70691ba80b3bce3976af63b5425c8c07dface348dfee664a0edc1",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build_runner-2.8.0"
+        "dest": ".pub-cache/hosted/pub.dev/build_runner-2.9.0"
     },
     {
         "type": "inline",
-        "contents": "804c47c936df75e1911c19a4fb8c46fa8ff2b3099b9f2b2aa4726af3774f734b",
+        "contents": "4e54dbeefdc70691ba80b3bce3976af63b5425c8c07dface348dfee664a0edc1",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build_runner-2.8.0.sha256"
+        "dest-filename": "build_runner-2.9.0.sha256"
     },
     {
         "type": "archive",
@@ -464,30 +464,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/drift-2.28.2.tar.gz",
-        "sha256": "540cf382a3bfa99b76e51514db5b0ebcd81ce3679b7c1c9cb9478ff3735e47a1",
+        "url": "https://pub.dev/api/archives/drift-2.29.0.tar.gz",
+        "sha256": "83290a32ae006a7535c5ecf300722cb77177250d9df4ee2becc5fa8a36095114",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/drift-2.28.2"
+        "dest": ".pub-cache/hosted/pub.dev/drift-2.29.0"
     },
     {
         "type": "inline",
-        "contents": "540cf382a3bfa99b76e51514db5b0ebcd81ce3679b7c1c9cb9478ff3735e47a1",
+        "contents": "83290a32ae006a7535c5ecf300722cb77177250d9df4ee2becc5fa8a36095114",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "drift-2.28.2.sha256"
+        "dest-filename": "drift-2.29.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/drift_dev-2.28.3.tar.gz",
-        "sha256": "4db0eeedc7e8bed117a9f22d867ab7a3a294300fed5c269aac90d0b3545967ca",
+        "url": "https://pub.dev/api/archives/drift_dev-2.29.0.tar.gz",
+        "sha256": "6019f827544e77524ffd5134ae0cb75dfd92ef5ef3e269872af92840c929cd43",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/drift_dev-2.28.3"
+        "dest": ".pub-cache/hosted/pub.dev/drift_dev-2.29.0"
     },
     {
         "type": "inline",
-        "contents": "4db0eeedc7e8bed117a9f22d867ab7a3a294300fed5c269aac90d0b3545967ca",
+        "contents": "6019f827544e77524ffd5134ae0cb75dfd92ef5ef3e269872af92840c929cd43",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "drift_dev-2.28.3.sha256"
+        "dest-filename": "drift_dev-2.29.0.sha256"
     },
     {
         "type": "archive",
@@ -632,30 +632,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flex_color_scheme-8.3.0.tar.gz",
-        "sha256": "034d5720747e6af39b2ad090d82dd92d33fde68e7964f1814b714c9d49ddbd64",
+        "url": "https://pub.dev/api/archives/flex_color_scheme-8.3.1.tar.gz",
+        "sha256": "6e713c27a2ebe63393a44d4bf9cdd2ac81e112724a4c69905fc41cbf231af11d",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flex_color_scheme-8.3.0"
+        "dest": ".pub-cache/hosted/pub.dev/flex_color_scheme-8.3.1"
     },
     {
         "type": "inline",
-        "contents": "034d5720747e6af39b2ad090d82dd92d33fde68e7964f1814b714c9d49ddbd64",
+        "contents": "6e713c27a2ebe63393a44d4bf9cdd2ac81e112724a4c69905fc41cbf231af11d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flex_color_scheme-8.3.0.sha256"
+        "dest-filename": "flex_color_scheme-8.3.1.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flex_seed_scheme-3.5.1.tar.gz",
-        "sha256": "b06d8b367b84cbf7ca5c5603c858fa5edae88486c4e4da79ac1044d73b6c62ec",
+        "url": "https://pub.dev/api/archives/flex_seed_scheme-3.6.1.tar.gz",
+        "sha256": "828291a5a4d4283590541519d8b57821946660ac61d2e07d955f81cfcab22e5d",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flex_seed_scheme-3.5.1"
+        "dest": ".pub-cache/hosted/pub.dev/flex_seed_scheme-3.6.1"
     },
     {
         "type": "inline",
-        "contents": "b06d8b367b84cbf7ca5c5603c858fa5edae88486c4e4da79ac1044d73b6c62ec",
+        "contents": "828291a5a4d4283590541519d8b57821946660ac61d2e07d955f81cfcab22e5d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flex_seed_scheme-3.5.1.sha256"
+        "dest-filename": "flex_seed_scheme-3.6.1.sha256"
     },
     {
         "type": "archive",
@@ -814,16 +814,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/flutter_svg-2.2.1.tar.gz",
-        "sha256": "b9c2ad5872518a27507ab432d1fb97e8813b05f0fc693f9d40fad06d073e0678",
+        "url": "https://pub.dev/api/archives/flutter_svg-2.2.2.tar.gz",
+        "sha256": "055de8921be7b8e8b98a233c7a5ef84b3a6fcc32f46f1ebf5b9bb3576d108355",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/flutter_svg-2.2.1"
+        "dest": ".pub-cache/hosted/pub.dev/flutter_svg-2.2.2"
     },
     {
         "type": "inline",
-        "contents": "b9c2ad5872518a27507ab432d1fb97e8813b05f0fc693f9d40fad06d073e0678",
+        "contents": "055de8921be7b8e8b98a233c7a5ef84b3a6fcc32f46f1ebf5b9bb3576d108355",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "flutter_svg-2.2.1.sha256"
+        "dest-filename": "flutter_svg-2.2.2.sha256"
     },
     {
         "type": "archive",
@@ -870,16 +870,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/font_awesome_flutter-10.10.0.tar.gz",
-        "sha256": "27af5982e6c510dec1ba038eff634fa284676ee84e3fd807225c80c4ad869177",
+        "url": "https://pub.dev/api/archives/font_awesome_flutter-10.12.0.tar.gz",
+        "sha256": "b9011df3a1fa02993630b8fb83526368cf2206a711259830325bab2f1d2a4eb0",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/font_awesome_flutter-10.10.0"
+        "dest": ".pub-cache/hosted/pub.dev/font_awesome_flutter-10.12.0"
     },
     {
         "type": "inline",
-        "contents": "27af5982e6c510dec1ba038eff634fa284676ee84e3fd807225c80c4ad869177",
+        "contents": "b9011df3a1fa02993630b8fb83526368cf2206a711259830325bab2f1d2a4eb0",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "font_awesome_flutter-10.10.0.sha256"
+        "dest-filename": "font_awesome_flutter-10.12.0.sha256"
     },
     {
         "type": "archive",
@@ -912,30 +912,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/frontend_server_client-4.0.0.tar.gz",
-        "sha256": "f64a0333a82f30b0cca061bc3d143813a486dc086b574bfb233b7c1372427694",
+        "url": "https://pub.dev/api/archives/get_it-8.3.0.tar.gz",
+        "sha256": "ae78de7c3f2304b8d81f2bb6e320833e5e81de942188542328f074978cc0efa9",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/frontend_server_client-4.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/get_it-8.3.0"
     },
     {
         "type": "inline",
-        "contents": "f64a0333a82f30b0cca061bc3d143813a486dc086b574bfb233b7c1372427694",
+        "contents": "ae78de7c3f2304b8d81f2bb6e320833e5e81de942188542328f074978cc0efa9",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "frontend_server_client-4.0.0.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/get_it-8.2.0.tar.gz",
-        "sha256": "a4292e7cf67193f8e7c1258203104eb2a51ec8b3a04baa14695f4064c144297b",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/get_it-8.2.0"
-    },
-    {
-        "type": "inline",
-        "contents": "a4292e7cf67193f8e7c1258203104eb2a51ec8b3a04baa14695f4064c144297b",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "get_it-8.2.0.sha256"
+        "dest-filename": "get_it-8.3.0.sha256"
     },
     {
         "type": "archive",
@@ -2032,30 +2018,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/sqlite3_flutter_libs-0.5.39.tar.gz",
-        "sha256": "2b03273e71867a8a4d030861fc21706200debe5c5858a4b9e58f4a1c129586a4",
+        "url": "https://pub.dev/api/archives/sqlite3_flutter_libs-0.5.40.tar.gz",
+        "sha256": "69c80d812ef2500202ebd22002cbfc1b6565e9ff56b2f971e757fac5d42294df",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/sqlite3_flutter_libs-0.5.39"
+        "dest": ".pub-cache/hosted/pub.dev/sqlite3_flutter_libs-0.5.40"
     },
     {
         "type": "inline",
-        "contents": "2b03273e71867a8a4d030861fc21706200debe5c5858a4b9e58f4a1c129586a4",
+        "contents": "69c80d812ef2500202ebd22002cbfc1b6565e9ff56b2f971e757fac5d42294df",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "sqlite3_flutter_libs-0.5.39.sha256"
+        "dest-filename": "sqlite3_flutter_libs-0.5.40.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/sqlparser-0.41.2.tar.gz",
-        "sha256": "57090342af1ce32bb499aa641f4ecdd2d6231b9403cea537ac059e803cc20d67",
+        "url": "https://pub.dev/api/archives/sqlparser-0.42.0.tar.gz",
+        "sha256": "54eea43e36dd3769274c3108625f9ea1a382f8d2ac8b16f3e4589d9bd9b0e16c",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/sqlparser-0.41.2"
+        "dest": ".pub-cache/hosted/pub.dev/sqlparser-0.42.0"
     },
     {
         "type": "inline",
-        "contents": "57090342af1ce32bb499aa641f4ecdd2d6231b9403cea537ac059e803cc20d67",
+        "contents": "54eea43e36dd3769274c3108625f9ea1a382f8d2ac8b16f3e4589d9bd9b0e16c",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "sqlparser-0.41.2.sha256"
+        "dest-filename": "sqlparser-0.42.0.sha256"
     },
     {
         "type": "archive",
@@ -2830,16 +2816,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/dwds-24.4.0+1.tar.gz",
-        "sha256": "b2f7e3241de2adbd5caa87ae9d05a0f9c59b9cbb8c77aeaeebf6c277821f25d5",
+        "url": "https://pub.dev/api/archives/dwds-24.4.0+2.tar.gz",
+        "sha256": "285736451c8e646ea99c50a6c47cde65d0eea55f0e1a995b5474b849d04af3ea",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/dwds-24.4.0+1"
+        "dest": ".pub-cache/hosted/pub.dev/dwds-24.4.0+2"
     },
     {
         "type": "inline",
-        "contents": "b2f7e3241de2adbd5caa87ae9d05a0f9c59b9cbb8c77aeaeebf6c277821f25d5",
+        "contents": "285736451c8e646ea99c50a6c47cde65d0eea55f0e1a995b5474b849d04af3ea",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "dwds-24.4.0+1.sha256"
+        "dest-filename": "dwds-24.4.0+2.sha256"
     },
     {
         "type": "archive",
@@ -2882,6 +2868,20 @@
         "contents": "0120589a786dbae4e86af1f61748baccd8530abd56a60e7a13479647a75222fe",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "flutter_template_images-5.0.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/frontend_server_client-4.0.0.tar.gz",
+        "sha256": "f64a0333a82f30b0cca061bc3d143813a486dc086b574bfb233b7c1372427694",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/frontend_server_client-4.0.0"
+    },
+    {
+        "type": "inline",
+        "contents": "f64a0333a82f30b0cca061bc3d143813a486dc086b574bfb233b7c1372427694",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "frontend_server_client-4.0.0.sha256"
     },
     {
         "type": "archive",
