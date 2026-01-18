@@ -59,12 +59,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/wger-project/flutter",
-                    "tag": "1.9.6"
+                    "tag": "1.10.0"
                 },
                 "generated/sources/pubspec.json"
             ],
             "modules": [
-                "generated/modules/flutter-sdk-3.38.6.json"
+                "generated/modules/flutter-sdk-3.38.7.json"
             ]
         }
     ]
