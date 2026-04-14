@@ -59,8 +59,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/wger-project/flutter",
-                    "tag": "1.11.0",
-                    "commit": "e3e33b717ce3240a920f8c997c1e789cabc5e6b5"
+                    "tag": "0bdfeafb0d79d3bd67b678bf1a831da4092badb9",
+                    "commit": "0bdfeafb0d79d3bd67b678bf1a831da4092badb9"
                 },
                 "generated/sources/pubspec.json"
             ],
