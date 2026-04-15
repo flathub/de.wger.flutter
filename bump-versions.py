@@ -15,8 +15,11 @@
 import json
 import sys
 
-def update_wger_version(filename: str, new_version: str):
-    """Updates the version of the wger flutter source in the flatpak-flutter JSON file."""
+FLATPAK_FLUTTER_JSON = "flatpak-flutter.json"
+
+
+def update_source_tag(filename: str, git_url: str, new_tag: str):
+    """Updates the tag of a git source in the flatpak-flutter JSON file."""
 
     with open(filename, 'r', encoding="utf-8") as f:
         data = json.load(f)
@@ -24,26 +27,29 @@ def update_wger_version(filename: str, new_version: str):
     updated = False
     modules = data.get("modules", [])
     for source in modules[0].get("sources", []):
-        if (
-            source.get("type") == "git"
-            and source.get("url") == "https://github.com/wger-project/flutter"
-        ):
-            source["tag"] = new_version
+        if source.get("type") == "git" and source.get("url") == git_url:
+            source["tag"] = new_tag
             updated = True
             break
 
     if not updated:
-        raise ValueError("Source entry https://github.com/wger-project/flutter not found")
+        raise ValueError(f"Source entry {git_url} not found")
 
     with open(filename, 'w', encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
         f.write('\n')
 
+
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python bump-wger-version.py <x.y.z>")
+    if len(sys.argv) < 2 or len(sys.argv) > 3:
+        print("Usage: python bump-versions.py <wger-version> [flutter-version]")
         sys.exit(1)
 
-    version = sys.argv[1]
-    update_wger_version("flatpak-flutter.json", version)
-    print(f"Version updated to {version}.")
+    wger_version = sys.argv[1]
+    update_source_tag(FLATPAK_FLUTTER_JSON, "https://github.com/wger-project/flutter", wger_version)
+    print(f"wger version updated to {wger_version}.")
+
+    if len(sys.argv) == 3:
+        flutter_version = sys.argv[2]
+        update_source_tag(FLATPAK_FLUTTER_JSON, "https://github.com/flutter/flutter.git", flutter_version)
+        print(f"Flutter SDK version updated to {flutter_version}.")
