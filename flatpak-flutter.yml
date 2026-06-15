@@ -71,9 +71,9 @@ modules:
     sources:
       - type: git
         url: https://github.com/wger-project/flutter
-        tag: feature/offline-mode
+        tag: 2.0.0
 
       - type: git
         url: https://github.com/flutter/flutter.git
-        tag: 3.44.0
+        tag: 3.44.2
         dest: flutter
