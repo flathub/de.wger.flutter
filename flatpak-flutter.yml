@@ -1,0 +1,79 @@
+app-id: de.wger.flutter
+runtime: org.freedesktop.Platform
+
+# See https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/wikis/Releases
+# for deprecation and release dates
+runtime-version: '25.08'
+sdk: org.freedesktop.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.llvm20
+command: wger
+separate-locales: false
+finish-args:
+  - --share=ipc
+  - --share=network
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --socket=pulseaudio
+  - --device=dri
+  # See https://github.com/fluttercommunity/plus_plugins/issues/1241
+  # on why this might need to go in the future
+  - --system-talk-name=org.freedesktop.NetworkManager
+cleanup:
+  - /var/lib
+modules:
+  # Required by flutter_secure_storage_linux, not provided by the bare
+  # org.freedesktop.Platform runtime, remove if that changes
+  - name: libsecret
+    buildsystem: meson
+    config-opts:
+      - -Dgtk_doc=false
+      - -Dintrospection=false
+      - -Dvapi=false
+      - -Dmanpage=false
+    cleanup:
+      - /bin
+      - /include
+      - /lib/pkgconfig
+      - /share/gir-1.0
+      - /share/man
+    sources:
+      - type: archive
+        url: https://download.gnome.org/sources/libsecret/0.21/libsecret-0.21.7.tar.xz
+        sha256: 6b452e4750590a2b5617adc40026f28d2f4903de15f1250e1d1c40bfd68ed55e
+
+  - name: wger
+    buildsystem: simple
+    build-options:
+      arch:
+        x86_64:
+          env:
+            BUNDLE_PATH: build/linux/x64/release/bundle
+        aarch64:
+          env:
+            BUNDLE_PATH: build/linux/arm64/release/bundle
+      append-path: /usr/lib/sdk/llvm20/bin:/run/build/wger/flutter/bin
+      prepend-ld-library-path: /usr/lib/sdk/llvm20/lib
+      env:
+        PUB_CACHE: /run/build/wger/.pub-cache
+
+    build-commands:
+      - flutter build linux --release --no-pub
+      - install -D $BUNDLE_PATH/wger /app/bin/wger
+      - cp -r $BUNDLE_PATH/lib /app/bin/lib
+      - cp -r $BUNDLE_PATH/data /app/bin/data
+      - install -Dm644 flatpak/logo64.png /app/share/icons/hicolor/64x64/apps/de.wger.flutter.png
+      - install -Dm644 flatpak/logo128.png /app/share/icons/hicolor/128x128/apps/de.wger.flutter.png
+      - install -Dm644 flatpak/logo512.png /app/share/icons/hicolor/512x512/apps/de.wger.flutter.png
+      - install -Dm644 flatpak/de.wger.flutter.desktop /app/share/applications/de.wger.flutter.desktop
+      - install -Dm644 flatpak/de.wger.flutter.metainfo.xml /app/share/metainfo/de.wger.flutter.metainfo.xml
+
+    sources:
+      - type: git
+        url: https://github.com/wger-project/flutter
+        tag: 2.0.0
+
+      - type: git
+        url: https://github.com/flutter/flutter.git
+        tag: 3.44.2
+        dest: flutter
