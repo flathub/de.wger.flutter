@@ -52,6 +52,12 @@ modules:
         aarch64:
           env:
             BUNDLE_PATH: build/linux/arm64/release/bundle
+          # flutter_secure_storage_linux 3.0.1 seems to have a cold-keyring memory bug
+          # that the freedesktop SDK's branch-protection (PAC/BTI) turns into a SIGILL
+          # on aarch64. Disable it so the failure stays a catchable KeyringLocked
+          # (-mbranch-protection is invalid on x86_64.)
+          cflags: -mbranch-protection=none
+          cxxflags: -mbranch-protection=none
       append-path: /usr/lib/sdk/llvm20/bin:/var/lib/flutter/bin
       prepend-ld-library-path: /usr/lib/sdk/llvm20/lib
       env:
@@ -70,8 +76,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/wger-project/flutter
-        tag: 2.0.0
-        commit: a679ad63fd5f0bdc0fa195925aca39cb0eaceaca
+        tag: 2.0.1
+        commit: f050f3238f9fbf4f6f311780ff93c832ddab9dcb
       - generated/sources/pubspec.json
     modules:
       - generated/modules/flutter-sdk-3.44.2.json
