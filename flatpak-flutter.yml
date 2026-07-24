@@ -77,7 +77,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/wger-project/flutter
-        tag: 2.0.0
+        tag: 2.0.2
 
       - type: git
         url: https://github.com/flutter/flutter.git

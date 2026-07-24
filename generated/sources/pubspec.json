@@ -58,16 +58,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/app_links-7.1.2.tar.gz",
-        "sha256": "4ec328cd9fd51fd0e7eb8870a9612c1fde0f091901932238c4f4e60b5f7f1315",
+        "url": "https://pub.dev/api/archives/app_links-7.2.1.tar.gz",
+        "sha256": "f8db46d2ea9ff6f3a37191a7fd5b7813da1253ace8c32c1b9eadace41d1188ea",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/app_links-7.1.2"
+        "dest": ".pub-cache/hosted/pub.dev/app_links-7.2.1"
     },
     {
         "type": "inline",
-        "contents": "4ec328cd9fd51fd0e7eb8870a9612c1fde0f091901932238c4f4e60b5f7f1315",
+        "contents": "f8db46d2ea9ff6f3a37191a7fd5b7813da1253ace8c32c1b9eadace41d1188ea",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "app_links-7.1.2.sha256"
+        "dest-filename": "app_links-7.2.1.sha256"
     },
     {
         "type": "archive",
@@ -86,16 +86,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/app_links_platform_interface-2.0.3.tar.gz",
-        "sha256": "78a18580eecac98108d1eef52a7db668bc317714f5205e616973363326efe333",
+        "url": "https://pub.dev/api/archives/app_links_platform_interface-2.0.4.tar.gz",
+        "sha256": "7546f09a6e93f4a2df2fe2bd40a5c6c64310ac461b036d82b43033be7a59f809",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/app_links_platform_interface-2.0.3"
+        "dest": ".pub-cache/hosted/pub.dev/app_links_platform_interface-2.0.4"
     },
     {
         "type": "inline",
-        "contents": "78a18580eecac98108d1eef52a7db668bc317714f5205e616973363326efe333",
+        "contents": "7546f09a6e93f4a2df2fe2bd40a5c6c64310ac461b036d82b43033be7a59f809",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "app_links_platform_interface-2.0.3.sha256"
+        "dest-filename": "app_links_platform_interface-2.0.4.sha256"
     },
     {
         "type": "archive",
@@ -492,16 +492,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/connectivity_plus-7.1.1.tar.gz",
-        "sha256": "62ffa266d9a23b79fb3fcbc206afc00bb979417ba57b1324c546b5aab95ba057",
+        "url": "https://pub.dev/api/archives/connectivity_plus-7.2.0.tar.gz",
+        "sha256": "cad0e811a289ea2a941119dc483c204ec1684cbb9a8fc7351fe4a230b8313160",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/connectivity_plus-7.1.1"
+        "dest": ".pub-cache/hosted/pub.dev/connectivity_plus-7.2.0"
     },
     {
         "type": "inline",
-        "contents": "62ffa266d9a23b79fb3fcbc206afc00bb979417ba57b1324c546b5aab95ba057",
+        "contents": "cad0e811a289ea2a941119dc483c204ec1684cbb9a8fc7351fe4a230b8313160",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "connectivity_plus-7.1.1.sha256"
+        "dest-filename": "connectivity_plus-7.2.0.sha256"
     },
     {
         "type": "archive",
@@ -674,16 +674,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/equatable-2.0.8.tar.gz",
-        "sha256": "3e0141505477fd8ad55d6eb4e7776d3fe8430be8e497ccb1521370c3f21a3e2b",
+        "url": "https://pub.dev/api/archives/equatable-2.1.0.tar.gz",
+        "sha256": "3bce007a596ff8b3119c45d68aaef631272537c03d30e5d4534dd24bf4c5eaa2",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/equatable-2.0.8"
+        "dest": ".pub-cache/hosted/pub.dev/equatable-2.1.0"
     },
     {
         "type": "inline",
-        "contents": "3e0141505477fd8ad55d6eb4e7776d3fe8430be8e497ccb1521370c3f21a3e2b",
+        "contents": "3bce007a596ff8b3119c45d68aaef631272537c03d30e5d4534dd24bf4c5eaa2",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "equatable-2.0.8.sha256"
+        "dest-filename": "equatable-2.1.0.sha256"
     },
     {
         "type": "archive",
@@ -1304,16 +1304,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/image_picker-1.2.2.tar.gz",
-        "sha256": "91c025426c2881c551100bce834e201c835a170151545f58d17da5180ca7d9ac",
+        "url": "https://pub.dev/api/archives/image_picker-1.2.3.tar.gz",
+        "sha256": "d8402284df184bc05f4a2210c6c23983b0720f4cd87cbd05c5390a78af602667",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/image_picker-1.2.2"
+        "dest": ".pub-cache/hosted/pub.dev/image_picker-1.2.3"
     },
     {
         "type": "inline",
-        "contents": "91c025426c2881c551100bce834e201c835a170151545f58d17da5180ca7d9ac",
+        "contents": "d8402284df184bc05f4a2210c6c23983b0720f4cd87cbd05c5390a78af602667",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "image_picker-1.2.2.sha256"
+        "dest-filename": "image_picker-1.2.3.sha256"
     },
     {
         "type": "archive",
@@ -1794,16 +1794,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/package_info_plus-10.1.0.tar.gz",
-        "sha256": "4bf625947f6c7713ee242296a682e23e44823c09cf9d79e4f1238923c92db852",
+        "url": "https://pub.dev/api/archives/package_info_plus-10.2.1.tar.gz",
+        "sha256": "127e1751e37ffb2ff4658beeaca77bad0c27bf5f932bd3a501c2296926d4b481",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/package_info_plus-10.1.0"
+        "dest": ".pub-cache/hosted/pub.dev/package_info_plus-10.2.1"
     },
     {
         "type": "inline",
-        "contents": "4bf625947f6c7713ee242296a682e23e44823c09cf9d79e4f1238923c92db852",
+        "contents": "127e1751e37ffb2ff4658beeaca77bad0c27bf5f932bd3a501c2296926d4b481",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "package_info_plus-10.1.0.sha256"
+        "dest-filename": "package_info_plus-10.2.1.sha256"
     },
     {
         "type": "archive",
@@ -2004,16 +2004,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/powersync-2.3.0.tar.gz",
-        "sha256": "6c1ab4bf50ea4e93f5c33863d37e69c7d6cf7342338e95c30a9dd24210b1e501",
+        "url": "https://pub.dev/api/archives/powersync-2.3.1.tar.gz",
+        "sha256": "fd497501e9adbfcafb65870311c6c2b48f6146cbf67bb4e2d92f3f8da23bd9ab",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/powersync-2.3.0"
+        "dest": ".pub-cache/hosted/pub.dev/powersync-2.3.1"
     },
     {
         "type": "inline",
-        "contents": "6c1ab4bf50ea4e93f5c33863d37e69c7d6cf7342338e95c30a9dd24210b1e501",
+        "contents": "fd497501e9adbfcafb65870311c6c2b48f6146cbf67bb4e2d92f3f8da23bd9ab",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "powersync-2.3.0.sha256"
+        "dest-filename": "powersync-2.3.1.sha256"
     },
     {
         "type": "archive",
@@ -2900,30 +2900,30 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/video_player-2.11.1.tar.gz",
-        "sha256": "48a7bdaa38a3d50ec10c78627abdbfad863fdf6f0d6e08c7c3c040cfd80ae36f",
+        "url": "https://pub.dev/api/archives/video_player-2.12.0.tar.gz",
+        "sha256": "0431179e1a7a2234a1148f64dde63c73167ca23829815169b24cc0bc6b9444a3",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/video_player-2.11.1"
+        "dest": ".pub-cache/hosted/pub.dev/video_player-2.12.0"
     },
     {
         "type": "inline",
-        "contents": "48a7bdaa38a3d50ec10c78627abdbfad863fdf6f0d6e08c7c3c040cfd80ae36f",
+        "contents": "0431179e1a7a2234a1148f64dde63c73167ca23829815169b24cc0bc6b9444a3",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "video_player-2.11.1.sha256"
+        "dest-filename": "video_player-2.12.0.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/video_player_android-2.9.6.tar.gz",
-        "sha256": "5d18d04084cc0cfc7afde39d0a308d4041e8ae6e9d5255bc086c263998dd1201",
+        "url": "https://pub.dev/api/archives/video_player_android-2.11.0.tar.gz",
+        "sha256": "5121de08444d00363efdda630a69ad4d27a208a9f7586482d4909a44a1cdbc63",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/video_player_android-2.9.6"
+        "dest": ".pub-cache/hosted/pub.dev/video_player_android-2.11.0"
     },
     {
         "type": "inline",
-        "contents": "5d18d04084cc0cfc7afde39d0a308d4041e8ae6e9d5255bc086c263998dd1201",
+        "contents": "5121de08444d00363efdda630a69ad4d27a208a9f7586482d4909a44a1cdbc63",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "video_player_android-2.9.6.sha256"
+        "dest-filename": "video_player_android-2.11.0.sha256"
     },
     {
         "type": "archive",
@@ -2942,16 +2942,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/video_player_platform_interface-6.7.0.tar.gz",
-        "sha256": "16eaed5268c571c31840dc58ef8da5f0cd4db2a98490c3b8f1cf70122546c6e0",
+        "url": "https://pub.dev/api/archives/video_player_platform_interface-6.9.0.tar.gz",
+        "sha256": "92c0fbabe20c788e71fd10d26cea998d0d253282e65d145aed0818731cf593ce",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/video_player_platform_interface-6.7.0"
+        "dest": ".pub-cache/hosted/pub.dev/video_player_platform_interface-6.9.0"
     },
     {
         "type": "inline",
-        "contents": "16eaed5268c571c31840dc58ef8da5f0cd4db2a98490c3b8f1cf70122546c6e0",
+        "contents": "92c0fbabe20c788e71fd10d26cea998d0d253282e65d145aed0818731cf593ce",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "video_player_platform_interface-6.7.0.sha256"
+        "dest-filename": "video_player_platform_interface-6.9.0.sha256"
     },
     {
         "type": "archive",
