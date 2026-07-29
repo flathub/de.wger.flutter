@@ -22,6 +22,7 @@ finish-args:
   - --socket=pulseaudio
   - --device=dri
   - --system-talk-name=org.freedesktop.NetworkManager
+  - --talk-name=org.freedesktop.secrets
 cleanup:
   - /var/lib
 modules:
@@ -72,8 +73,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/wger-project/flutter
-        tag: 2.0.2
-        commit: cde91f05bf98df3c6179f7815fa7aa84b96ac098
+        tag: 2.0.3
+        commit: 4261debc0b362c17ff2925f7dd96ba696f7ff219
       - generated/sources/pubspec.json
     modules:
-      - generated/modules/flutter-sdk-3.44.2.json
+      - generated/modules/flutter-sdk-3.44.8.json

@@ -19,6 +19,10 @@ finish-args:
   # See https://github.com/fluttercommunity/plus_plugins/issues/1241
   # on why this might need to go in the future
   - --system-talk-name=org.freedesktop.NetworkManager
+  # Secret Service access for flutter_secure_storage (libsecret): without
+  # this the JWT refresh token can never be persisted and the session
+  # breaks once the access token expires
+  - --talk-name=org.freedesktop.secrets
 cleanup:
   - /var/lib
 modules:
@@ -77,9 +81,9 @@ modules:
     sources:
       - type: git
         url: https://github.com/wger-project/flutter
-        tag: 2.0.2
+        tag: 2.0.3
 
       - type: git
         url: https://github.com/flutter/flutter.git
-        tag: 3.44.2
+        tag: 3.44.8
         dest: flutter
