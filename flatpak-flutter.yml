@@ -81,9 +81,9 @@ modules:
     sources:
       - type: git
         url: https://github.com/wger-project/flutter
-        tag: 2.0.3
+        tag: 2.0.4
 
       - type: git
         url: https://github.com/flutter/flutter.git
-        tag: 3.44.8
+        tag: 3.44.9
         dest: flutter
