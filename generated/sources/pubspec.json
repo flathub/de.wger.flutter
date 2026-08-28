@@ -632,6 +632,34 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/device_info_plus-13.2.0.tar.gz",
+        "sha256": "0891702f96b2e465fe567b7ec448380e6b1c14f60af552a8536d9f583b6b8442",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/device_info_plus-13.2.0"
+    },
+    {
+        "type": "inline",
+        "contents": "0891702f96b2e465fe567b7ec448380e6b1c14f60af552a8536d9f583b6b8442",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "device_info_plus-13.2.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/device_info_plus_platform_interface-8.1.0.tar.gz",
+        "sha256": "04b173a92e2d9161dfead145667037c8d834db725ce2e7b942bfe18fd2f45a46",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/device_info_plus_platform_interface-8.1.0"
+    },
+    {
+        "type": "inline",
+        "contents": "04b173a92e2d9161dfead145667037c8d834db725ce2e7b942bfe18fd2f45a46",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "device_info_plus_platform_interface-8.1.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/drift-2.34.3.tar.gz",
         "sha256": "3a3f1f6f905037d7426e4c445854139fd6a3d592135f7c96d7931682b73d16f4",
         "strip-components": 0,
@@ -1080,6 +1108,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/flutter_timezone-5.1.0.tar.gz",
+        "sha256": "869677426fde92dbe170fb7d2d4929f2a8343c2f5f62f08b0bb64f908630b073",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/flutter_timezone-5.1.0"
+    },
+    {
+        "type": "inline",
+        "contents": "869677426fde92dbe170fb7d2d4929f2a8343c2f5f62f08b0bb64f908630b073",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "flutter_timezone-5.1.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/flutter_typeahead-6.0.0.tar.gz",
         "sha256": "7b3f84e0bff51c544f4d1382c00413c36c1714328a6a89600865e497437d29d2",
         "strip-components": 0,
@@ -1202,6 +1244,19 @@
         "contents": "4ff85b2a16724029dd9e5bbb5a94b6918f9973f74ba571c949d2002801879cf5",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "gtk-2.2.0.sha256"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/ytsni/health_bridge.git",
+        "commit": "3d52dfef40534bf57d449c9be94eddba31852b34",
+        "dest": ".pub-cache/git/health_bridge-3d52dfef40534bf57d449c9be94eddba31852b34"
+    },
+    {
+        "type": "shell",
+        "commands": [
+            "mkdir -p .pub-cache/git/cache/health_bridge-dc30f18fd891da4313044228eccaea8192df5eda",
+            "cp -rf .pub-cache/git/health_bridge-3d52dfef40534bf57d449c9be94eddba31852b34/.git/* .pub-cache/git/cache/health_bridge-dc30f18fd891da4313044228eccaea8192df5eda"
+        ]
     },
     {
         "type": "archive",
@@ -2676,6 +2731,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/timezone-0.11.1.tar.gz",
+        "sha256": "981d1020d6ef8fe1e7b3de5054e5b25579ae7c403d7734adc508ffc47668e9cb",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/timezone-0.11.1"
+    },
+    {
+        "type": "inline",
+        "contents": "981d1020d6ef8fe1e7b3de5054e5b25579ae7c403d7734adc508ffc47668e9cb",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "timezone-0.11.1.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/typed_data-1.4.0.tar.gz",
         "sha256": "f9049c039ebfeb4cf7a7104a675823cd72dba8297f264b6637062516699fa006",
         "strip-components": 0,
@@ -3092,6 +3161,20 @@
         "contents": "a0b93865d5644f11cf6a8c3f6db909f1ec168958b5805f6cc684adea957cd63d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "win32-6.4.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/win32_registry-3.0.3.tar.gz",
+        "sha256": "73b1d78920a9d6e03f8b4e43e612b87bf3152a0e5c5e5150267762b7c4116904",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/win32_registry-3.0.3"
+    },
+    {
+        "type": "inline",
+        "contents": "73b1d78920a9d6e03f8b4e43e612b87bf3152a0e5c5e5150267762b7c4116904",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "win32_registry-3.0.3.sha256"
     },
     {
         "type": "archive",
