@@ -3,7 +3,7 @@ runtime: org.freedesktop.Platform
 
 # See https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/wikis/Releases
 # for deprecation and release dates
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.llvm20
