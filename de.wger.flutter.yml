@@ -73,8 +73,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/wger-project/flutter
-        tag: 2.1.0
-        commit: f842c8562bfa51e103b93fdbe4b15345279cb47e
+        tag: 2.1.1
+        commit: cf1270845e1843dfa77784153b4a571126e4023f
       - generated/sources/pubspec.json
     modules:
-      - generated/modules/flutter-sdk-3.44.9.json
+      - generated/modules/flutter-sdk-3.47.5.json
